@@ -1,0 +1,66 @@
+.Address{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:9999;
+  background-color: #f4f4f4;
+}
+
+.Address__searchbar{
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  color: #666;
+}
+
+.Address__searchbar img {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width:32px;
+  height:32px;
+}
+
+.searchbar__input{
+  display: block;
+  width:100%;
+  height: 72px;
+  border:none;
+  text-indent: 3em;
+  line-height: 36px;
+  background-color: #f4f4f4;
+}
+
+
+.Address__content {
+  padding:24px 16px; 
+  background: #fff;
+}
+
+.Address__title{
+  font-size: 28px;
+  padding: 0 16px;
+  margin:16px 0;
+}
+
+.Address__bd {
+}
+
+.icon {
+  float: right;
+  width:36px;
+  height:36px;
+}
+
+@keyframes rotate{
+  from{transform: rotate(0)}
+  to{transform: rotate(360deg)}
+}
+:global(.rotate){
+  animation: rotate .8s infinite linear;
+}
+
+
+

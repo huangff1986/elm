@@ -1,0 +1,80 @@
+.Header{
+  padding: 0 40px;
+  color: #fff;
+  background-image: linear-gradient(90deg,#0af,#0085ff);
+  display: flex;
+  justify-content: space-between;
+  height: 88px;
+  align-items: center;
+}
+
+.address{
+  width: 60%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.address__icon{
+  width: 30px;
+  height: 35px;
+  background: url('./address.png') no-repeat center; 
+  background-size: cover;
+}
+
+.address__text{
+  margin: 0 10px;
+  font-size: .48rem;
+  max-width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sj {
+  border-style: solid;
+  border-width: 6px;
+  border-color: transparent;
+  border-top-color: #fff;
+}
+
+.weather {
+  display: flex;
+  text-align: right;
+  align-items: center;
+}
+
+.weather__temperature{
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+.weather__today{
+  font-size: 24px;
+  margin-top:4px;
+  transform: scale(0.8);
+}
+
+.weather__icon{
+  margin-left: 5px;
+  width: 55px;
+  height: 55px;
+}
+
+
+:global(.animation-enter) {
+    transform: translate3d(100%,0,0);
+  }
+
+:global(.animation-enter.animation-enter-active) {
+    transform: translate3d(0,0,0);
+    transition: transform 300ms ease-out;
+  }
+
+:global(.animation-leave) {
+    transform: translate3d(0,0,0);
+  }
+
+:global(.animation-leave.animation-leave-active) {
+    transform: translate3d(100%,0,0);
+    transition: transform 300ms ease-out;
+  }

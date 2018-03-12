@@ -1,0 +1,28 @@
+.Hot{
+  height:80px;
+  background-image: linear-gradient(90deg,#0af,#0085ff);
+}
+
+.Hot__list{
+  box-sizing: border-box;
+  width:100%;
+  color: #fff;
+  padding:0 20px;
+  line-height: 80px;
+  white-space: nowrap;
+  overflow-x: auto;
+  font-size: 0;
+}
+
+.Hot__list::-webkit-scrollbar {
+  display: none;
+}
+
+.list__Item{
+  color: #fff;
+  font-size: 24px;
+}
+
+.list__Item:not(:last-child){
+  margin-right: 30px;
+}

@@ -1,0 +1,27 @@
+.Search {
+  position: sticky;
+  height: 80px;
+  background-image: linear-gradient(90deg,#0af,#0085ff);
+}
+
+.Search__content{
+  position: relative;
+  text-align: center;
+  line-height: 80px;
+}
+
+.Search__input{
+  height: 60px;
+  width:92%;
+  border:none;
+  text-indent: 2.5em;
+  line-height: 60px;
+}
+
+.Search__icon{
+  position: absolute;
+  left: 48px;
+  top: 24px;
+  width: 32px;
+  height: 32px;
+}

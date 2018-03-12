@@ -1,0 +1,19 @@
+.Footer {
+  width:100%;
+  position: fixed;;
+  bottom:0;
+}
+
+.icon {
+  width:44px;
+  height: 44px;
+}
+.active g,.active path{
+    stroke: #2295FF!important;
+    color:#2295FF;
+
+}
+
+.active path{
+  fill: #2295FF!important;
+}

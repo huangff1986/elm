@@ -1,0 +1,11 @@
+.MainLayout {
+  box-sizing: border-box;
+  position: relative;
+  overflow: auto;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+.content{
+  height:100%;
+}
